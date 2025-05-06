@@ -21,7 +21,7 @@ article ul li{
     padding-left: 15px;
 }
 .first{
-    color: black;
+    color: var(--Stone-900);
     font-size: 2rem;
 }
 .second{

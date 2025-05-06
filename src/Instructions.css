@@ -1,5 +1,5 @@
 .top{
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--Stone-150);
     padding: 1.5rem 0 0 0;
 }
 article ol{
@@ -14,7 +14,7 @@ article ol li{
         border-top: none;
     }
     .top article{
-        border-top: 1px solid black;
+        border-top: 1px solid var(--Stone-150);
         padding:1.5rem 0;
     }
 }
