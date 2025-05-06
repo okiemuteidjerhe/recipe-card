@@ -1,0 +1,10 @@
+img{
+    width: calc(40rem - 40px);
+    border-radius: 10px;
+}
+@media screen and (max-width:376px) {
+    img{
+        width: 100%;
+        border-radius: 0;
+    }
+}

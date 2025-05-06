@@ -1,0 +1,25 @@
+.nutri{
+    padding-bottom: 0;
+}
+.table{
+    background-color: transparent;
+    display: grid;
+    padding: 10px 30px 10px 30px;
+}
+.value{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0;
+}
+.value:not(:nth-of-type(4)){
+    border-bottom: 1px solid black;
+}
+article h2, .value p:nth-of-type(2){
+    color: var(--Brown-800);
+    font-weight: 700;
+}
+@media screen and (max-width:376px){
+    .nutri{
+        padding:0 30px;
+    }
+}

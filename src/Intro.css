@@ -1,0 +1,42 @@
+section{
+    display: grid;
+    gap: 1.5rem;
+}
+article > div{
+    padding: 30px;
+    background-color: var(--Stone-100);
+    border-radius: 10px;
+    font-family: "Outfit", serif;
+}
+article > div h2, article > div li::marker{
+    color: var(--Rose-800);
+}
+article > h2, article li::marker{
+    color: var(--Brown-800);
+}
+article ul{
+    padding-left: 19px;
+}
+article ul li{
+    padding-left: 15px;
+}
+.first{
+    color: black;
+    font-size: 2rem;
+}
+.second{
+    font-size: 1.2rem;
+    font-family: "Outfit", serif;
+}
+.child{
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width:376px) {
+    section{
+        padding: 1.5rem 30px;
+    }
+    .first{
+        font-size: 1.75rem;
+    }
+}
